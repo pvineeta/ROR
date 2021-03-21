@@ -13,5 +13,18 @@ git push origin branch_name
 
 
 Example:
-git status
 git add day_first.rb simple_git_cmd
+git commit -m "first session"
+[master 9ff13a8] first session
+ 2 files changed, 29 insertions(+)
+ create mode 100644 day_first.rb
+ create mode 100644 simple_git_cmd
+git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 639 bytes | 639.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/pvineeta/ROR.git
+   3d90bea..9ff13a8  master -> master
