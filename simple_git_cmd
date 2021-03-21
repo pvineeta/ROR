@@ -1,0 +1,17 @@
+To check the status
+git status
+
+to create a new branch
+git checkout -b branch_name
+
+
+How to push new files to git
+git status
+git add file_names
+git commit -m "message"
+git push origin branch_name
+
+
+Example:
+git status
+git add day_first.rb simple_git_cmd
