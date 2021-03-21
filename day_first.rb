@@ -33,8 +33,15 @@ Topics
       end
     end
   How to initialize a ruby class
+    object = ClassName.new - this invokes initialize method of the class
   Oops - object oriented programming language
     Encapsulation
+      bidning data and method together
     Polymorphism
+      one object & many forms
+      1 + 1 => 2 | 1.+(1)
+      "a" + "a" => "aa"  | "a".+("a")
     Inheritance
+      # Ruby supports only single class inheritance
     Abstraction
+      Hiding the code/complexity of the code from the end user
