@@ -17,4 +17,4 @@ end
 
 a = A.new
 a.x1(2, 7)
-z.x2
+a.x2
