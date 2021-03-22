@@ -4,8 +4,9 @@ class MyFirstClass
     puts "Initializing class"
     super
   end
-  def +(size)
-    puts "a #{size} car"
+  def nano(a)
+     # size = a
+    puts "a #{a} car"
   end
   def hexa
     puts "A XUV"

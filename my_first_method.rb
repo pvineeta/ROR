@@ -1,18 +1,18 @@
-puts "without args"
+# puts "without args"
 def test
-  x =  50
-  y = 60
+  x =  5
+  y = 6
   c = x + y
 end
 
-i = test
+i=test
 puts(i)
 
 
-puts "with args"
+# puts "with args"
 def test(x, y)
   c = x + y
 end
 
-i = test(50, 150)
-puts(i)
+
+puts(test(20,20))

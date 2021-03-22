@@ -1,4 +1,4 @@
-p("Hello world!")
+puts("Hello world!")
 
 
 # there are three printing keywords in ruby which are as given below
