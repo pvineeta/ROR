@@ -14,6 +14,7 @@ class A
   def x2(i, j)
     @name = i
     @code = j
+    puts i
   end
   def x3
     puts "name is #{@name} and code is #{@code}"
