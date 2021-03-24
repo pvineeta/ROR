@@ -19,3 +19,6 @@ class C
     puts $name
   end
 end
+
+i = B.new
+i.x2

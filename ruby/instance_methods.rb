@@ -7,6 +7,6 @@ class Test
   end
 end
 
-t  = Tata.new
+t  = Test.new
 t.tata # tata is an instance method
 t.apple # apple is an instance method
