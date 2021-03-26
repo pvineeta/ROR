@@ -41,6 +41,9 @@ create a controller to talk to your app
 Note: Controller name must be plural
 rails g/generate controller products index edit show
 
+to create an instance go to controller file, inside a particular function put @controller name & message.
+& then go to view folder & open particular function & write <%= @pagename %>, it will featch the message.
+
 
 Important:
 rails gives 5 route to privilage you.
@@ -77,3 +80,29 @@ delete
 To get all above rounts in one line ,put below command into routes
 resources: controller_name
 ex: resources: products
+
+
+############################
+
+Lets create a model
+
+rails g model column_names
+
+rails g model product title description price size
+
+above command will do two things
+
+1. create a class in model folder
+2. create a migration file inside db/migrate folder
+run the below command to get the table created inside db from step 2
+rake db:migrate
+
+To connect to DB use below command
+rails c
+
+to see the list of tables use below command
+ActiveRecord::Base.connection.tables
+
+
+To create an entry into table use
+Product.create(title: 'TShirt', size: 'M', price: '20', description: 'Mens wear')

@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
   def index
-    @product = "Hello Vineeta, There is no product. Sorry!"
+    @product = Product.all
   end
 
   def new
@@ -19,5 +19,5 @@ class ProductsController < ApplicationController
 
   def delete
   end
-  
+
 end
