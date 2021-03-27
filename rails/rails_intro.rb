@@ -106,3 +106,16 @@ ActiveRecord::Base.connection.tables
 
 To create an entry into table use
 Product.create(title: 'TShirt', size: 'M', price: '20', description: 'Mens wear')
+
+Parents of MVC:-
+Action controller
+Action views
+Active records
+
+Gemfile.lock keeps record of all the gems we have currently &
+bundle install will only install a new gem or upgrade its version,if its not available in gemfile.lock
+
+Authentication: If you are permitted/allowed to use the service
+Gem file name:Devise
+Authorisation: If you are permitted to use a service, what privilages you get
+Gem file name: Cancan

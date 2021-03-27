@@ -1,1 +1,23 @@
-<%= @product %>
+<div class="container">
+  <h2>Avi Store</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>size</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @product.each do |p| %>
+      <tr>
+        <td><%= p.title %></td>
+        <td><%= p.description %></td>
+        <td><%= p.price %></td>
+        <td><%= p.size %></td>
+      </tr>
+      <%end%>
+    </tbody>
+  </table>
+</div>
