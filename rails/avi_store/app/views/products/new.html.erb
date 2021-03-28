@@ -1,5 +1,5 @@
 <div class="container">
-  <%= form_with(model: @product, url: product_path) do |form| %>
+  <%= form_with(model: @product, url: products_path) do |form| %>
   <table class="table table-bordered">
     <tr>
       <td><%= form.label :title %></td>
@@ -19,8 +19,10 @@
     </tr>
     <tr>
       <td></td>
-      <td><%= form.submit "Update" %></td>
+      <td><%= form.submit "Create" %></td>
     </tr>
   </table>
   <% end %>
 </div>
+
+<%= link_to "<<Back", products_path, :class=>"btn btn-info" %>

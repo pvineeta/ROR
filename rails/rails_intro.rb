@@ -1,3 +1,5 @@
+https://guides.rubyonrails.org/getting_started.html
+
 Rails:
 
 rails is a web development framewrok writen in ruby lang

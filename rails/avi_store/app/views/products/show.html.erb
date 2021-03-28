@@ -1,2 +1,28 @@
-<h1>Products#show</h1>
-<p>Find me in app/views/products/show.html.erb</p>
+<div class="container">
+  <h2>Avi Store</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>size</th>
+        <th>Edit</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td><%= @product.title %></td>
+        <td><%= @product.description %></td>
+        <td><%= @product.price %></td>
+        <td><%= @product.size %></td>
+        <td><%= link_to "Edit", edit_product_path(@product), :class=>"btn btn-primary"%></td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+<%= link_to "Add a new product", new_product_path, :class=>"btn btn-info" %>
+<%= link_to "<<Back", products_path, :class=>"btn btn-info" %>
