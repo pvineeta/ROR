@@ -5,3 +5,4 @@ To see all available routes: rails routes
 To create a controller: rails g/generate controller controller_name followed by pages (index edit show)
 To create an instance: @controller name & message (go to controller file, inside a particular function put)
 To view the messages:<%= @pagename %>
+To get all above rounts in one line: resources: controller_name
